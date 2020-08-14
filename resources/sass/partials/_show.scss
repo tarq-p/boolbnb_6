@@ -1,0 +1,50 @@
+main {
+
+    .my-show-container {
+        padding-top: 20px;
+    }
+
+    .appartamenti-show {
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            object-fit: cover;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+
+    .info-apt {
+        margin-top: 30px;
+        .apt-description p{
+            font-size: 40px;
+        }
+    }
+
+    .apt-description {
+        font-size: 20px;
+    }
+
+    .servizi {
+        display: flex;
+        justify-content: center;
+    }
+
+    .servizi ul li {
+        // text-align: center;
+        // list-style: none;
+    }
+
+    .my-message-form{
+        padding-bottom: 20px;
+    }
+
+    .my-message-container {
+        border-top: 1px solid lightgray;
+        padding: 8px 0;
+    }
+}
